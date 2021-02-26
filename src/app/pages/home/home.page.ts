@@ -21,10 +21,30 @@ export class HomePage implements OnInit {
       redirecTo: '/action-sheet'
     },
     {
-      icon: 'logo-google-playstore',
+      icon: 'alert-circle-outline',
       name: 'Alert',
       redirecTo: '/alert'
-    }
+    },
+    {
+      icon: 'beaker-outline',
+      name: 'Avatar',
+      redirecTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Button',
+      redirecTo: '/button'
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      redirecTo: '/card'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Checks',
+      redirecTo: '/check'
+    },
   ];
 
   constructor() { }
