@@ -55,6 +55,31 @@ export class HomePage implements OnInit {
       name: 'Fab',
       redirecTo: '/fab'
     },
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirecTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite',
+      redirecTo: '/infinite'
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Iput Forms',
+      redirecTo: '/input'
+    },
+    {
+      icon: 'list-outline',
+      name: 'List - Sliding',
+      redirecTo: '/list'
+    },
+    {
+      icon: 'reorder-three-outline',
+      name: 'List - Reorder',
+      redirecTo: '/list-reorder'
+    },
   ];
 
   constructor() { }
